@@ -1,0 +1,11 @@
+# Render "Blueprint": lets you deploy this game by connecting the GitHub repo.
+# The game keeps live rooms in memory, so it must run as ONE instance.
+services:
+  - type: web
+    name: double-agent-protocol-zero
+    runtime: node
+    plan: free
+    numInstances: 1
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health

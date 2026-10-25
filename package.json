@@ -1,0 +1,15 @@
+{
+  "name": "double-agent-protocol-zero",
+  "version": "1.0.0",
+  "description": "Double Agent: Protocol Zero - a real-time multiplayer deduction game about forged intelligence.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node test/multiplayer.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "license": "MIT",
+  "private": true
+}
