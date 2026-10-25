@@ -21,7 +21,7 @@ reconnects, disconnects, duplicate taps and late joiners.
 PASTE YOUR PUBLIC URL HERE (for example https://your-game.onrender.com)
 
 ## Cover image
-submission/cover.png (1600 x 900)
+submission/preview.png (1600 x 900)
 
 ## Final checklist
 - [ ] Deployed to a public host and the link opens in a private/incognito window
